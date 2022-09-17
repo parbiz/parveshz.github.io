@@ -1,5 +1,6 @@
 /*google fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 /*variable css*/
 :root{
@@ -114,6 +115,46 @@ img{
     z-index: var(--z-fixed);
     background-color: var(--first-color);
 }
+
+/*cv*/
+body,
+button,
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text {
+  font-size: 1.25rem;
+  color: var(--dark-two);
+  line-height: 1.6;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.65rem 1rem;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  border-radius: 2rem;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #6b44e0;
+}
+
+.btn.small {
+  padding: 0.7rem 1.8rem;
+  font-size: 1rem;
+}
+
 
   
 /*navigation*/
